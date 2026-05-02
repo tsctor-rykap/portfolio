@@ -9,19 +9,21 @@ function Homepage(){
     return (
       <>
         <Navbar></Navbar>
-        <ProjectCard
+        {/* <ProjectCard
           props={{
             Title: "Project 1",
             Subtext: "Informational page on platypuses",
             ImagePath: "/src/Project-1.png"
           }}
-        />
+        /> */}
         <section>
           <div id="title">
+            <img src = "\src\ocean.JPG" className = "img-gradient"></img>
+
             <ul>
               <h1>
                 {" "}
-                Ryka <br /> Pradhan
+                Ryka Pradhan's <br /> Personal Website
               </h1>
             </ul>
           </div>
@@ -30,7 +32,7 @@ function Homepage(){
           <div className="Projects">
             <div className="Project">
               <h3 id="project1"> Project 1: NauticalInexperiencedInstitute</h3>
-
+          <div className="grad"></div>
               <p>
                 {" "}
                 &emsp;This informational website is a place for anyone to learn
