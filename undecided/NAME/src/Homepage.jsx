@@ -8,7 +8,6 @@ import flappy from "./Flappy Bird.png"
 function Homepage(){
     return (
       <>
-        <Navbar></Navbar>
         {/* <ProjectCard
           props={{
             Title: "Project 1",
@@ -18,21 +17,21 @@ function Homepage(){
         /> */}
         <section>
           <div id="title">
-            <img src = "\src\ocean.JPG" className = "img-gradient"></img>
-
-            <ul>
-              <h1>
-                {" "}
-                Ryka Pradhan's <br /> Personal Website
-              </h1>
-            </ul>
+            
+              <img src="src/ocean.jpg"></img>
+                <h1>
+                 
+                  Ryka Pradhan's <br /> Personal Website
+                </h1>
+             
+            
           </div>
         </section>
         <section>
           <div className="Projects">
             <div className="Project">
               <h3 id="project1"> Project 1: NauticalInexperiencedInstitute</h3>
-          <div className="grad"></div>
+              <div className="grad"></div>
               <p>
                 {" "}
                 &emsp;This informational website is a place for anyone to learn

@@ -5,7 +5,7 @@ html {
 
 img {
   max-width: 80%;
- max-height: 80%;
+  max-height: 80%;
   /* margin-left: 5%; */
   display: inline-block;
   margin-left: 10%;
@@ -17,7 +17,6 @@ li {
   display: inline-block;
   padding: 5px;
   margin: 2px;
-
 }
 
 ul {
@@ -26,9 +25,8 @@ ul {
 
 a {
   text-decoration: none;
-  color: #CEAB8F;
+  color: #ceab8f;
   font-weight: 800;
-  
 }
 
 body {
@@ -36,39 +34,46 @@ body {
 }
 
 h1 {
-
   color: #483528;
   font-size: 100px;
   /* padding: ; */
   /* margin: auto;
   padding-top: auto; */
   text-align: right;
-
 }
 
 #title {
-
   /* background: url("yellow circles.png") no-repeat center;
   background-size: cover; */
-  height: 300px;
+display: flex;
 
 }
-img-gradient{
-  mask-image: linear-gradient(to right,#fff5ea, transparent );
+#title img{
+  transform: scale(0.5);
+}
+.img-gradient {
+  
+  /* background:
+    linear-gradient(to right, transparent, #fff5ea), url("./ocean.jpg"); */
+/* background-image: url("ocean.jpg");
+background-size: 100% 200%;
+background-position: 50% 25%; */
+
+
 }
 
 h2 {
-  color: #EBE9E1;
+  color: #ebe9e1;
   margin: 2vh;
   font-size: 4vw;
 }
 
 h3 {
-  color: #E43D12;
+  color: #e43d12;
 }
 
 p {
-  color: #D6536D;
+  color: #d6536d;
 }
 section {
   margin-bottom: 3vh;
@@ -78,7 +83,7 @@ section {
   box-sizing: border-box;
   width: 45%;
   display: inline-block;
-  border: 7px double #FFA2B6;
+  border: 7px double #ffa2b6;
   margin: 20px;
   height: 60vh;
   margin-top: 0;
@@ -86,42 +91,37 @@ section {
   top: 0;
   padding: 10px;
   vertical-align: top;
-
 }
 .AboutMe {
-  background-color: #E43D12;
+  background-color: #e43d12;
   font-weight: 10px;
- text-align: center;
-  color: #EBE9E1;
+  text-align: center;
+  color: #ebe9e1;
   padding-bottom: 1%;
-  
 }
 
-
 @media screen and (max-width: 900px) {
-   .Project {
-     box-sizing: border-box;
-     width: 85vw;
-     display: inline-block;
-     border: 7px double #FFA2B6;
-     /* margin: 20px; */
-     height: 60vh;
-     /* margin-top: 0; */
-     position: relative;
-     top: 0;
-     padding: 10px;
-     vertical-align: top;
-
-   }
+  .Project {
+    box-sizing: border-box;
+    width: 85vw;
+    display: inline-block;
+    border: 7px double #ffa2b6;
+    /* margin: 20px; */
+    height: 60vh;
+    /* margin-top: 0; */
+    position: relative;
+    top: 0;
+    padding: 10px;
+    vertical-align: top;
+  }
   img {
     max-width: 80%;
-   max-height: 80%;
+    max-height: 80%;
     /* margin-left: 5%; */
     display: inline-block;
     /* margin-left: 10%; */
-
   }
-  h1{
+  h1 {
     font-size: 100px;
   }
   #title {
@@ -129,7 +129,7 @@ section {
   }
 }
 @media screen and (max-width: 500px) {
-  #title{
+  #title {
     height: 300px;
   }
 }
