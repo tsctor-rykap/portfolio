@@ -17,14 +17,13 @@ function Homepage(){
         /> */}
         <section>
           <div id="title">
-            
-              <img src="src/ocean.jpg"></img>
-                <h1>
-                 
-                  Ryka Pradhan's <br /> Personal Website
-                </h1>
-             
-            
+            <div className="img-container" >
+              <img src="src/ocean.jpg" ></img>
+            </div>
+
+            <h1>
+              Ryka Pradhan's <br /> Personal Website
+            </h1>
           </div>
         </section>
         <section>
