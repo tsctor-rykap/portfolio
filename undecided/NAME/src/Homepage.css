@@ -73,7 +73,7 @@ h2 {
 }
 
 h3 {
-  color: #e43d12;
+  color: #493220;
 }
 
 p {
@@ -85,17 +85,17 @@ section {
 
 .Project {
   box-sizing: border-box;
-  width: 45%;
+  width: auto;
   display: flex;
   border: 7px double #ffa2b6;
   margin: 20px;
-  height: 60vh;
+  height: auto;
   margin-top: 0;
   position: relative;
   top: 0;
   padding: 10px;
   vertical-align: top;
-  flex-direction: column;
+  flex-direction: row;
 }
 .Project img{
  margin-left: 5%; 
