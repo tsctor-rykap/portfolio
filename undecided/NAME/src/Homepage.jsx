@@ -2,9 +2,10 @@ import "react"
 import "./Homepage.css";
 import Navbar from "./components/Navbar.jsx"
 import ProjectCard from "./components/ProjectCard.jsx"
-import platypus from "./Project-1.png";
-import toe from "./Project 2.png";
-import flappy from "./Flappy Bird.png"
+import platypus from "./assets/Project-1.png";
+import toe from "./assets/Project 2.png";
+import flappy from "./assets/Flappy Bird.png";
+import stock from "./assets/stock.png";
 function Homepage(){
     return (
       <>
@@ -18,7 +19,7 @@ function Homepage(){
         <section>
           <div id="title">
             <div className="img-container">
-              <img src="src/ocean.jpg"></img>
+              <img src="src/assets/ocean.jpg"></img>
             </div>
 
             <h1>
@@ -43,7 +44,7 @@ function Homepage(){
 
               <p> &emsp;A pink and blue version of Flappy Bird.</p>
               <a href="https://6a6b0c7a-0415-4d52-9371-d33282e32999-00-3h9p2fxdukrcd.janeway.replit.dev/">
-                <img src={toe} alt="Trulli" />
+                <img src={flappy} alt="Trulli" />
               </a>
             </div>
 
@@ -59,7 +60,8 @@ function Homepage(){
             <div className="Project">
               <h3 id="project4">Project 3</h3>
               <p>Stock simulator to help you invest smartly.</p>
-              <img src={flappy} alt="Trulli" />
+              <a href=""></a>
+              <img src={stock} alt="Trulli" />
             </div>
           </div>
         </section>
@@ -71,7 +73,7 @@ function Homepage(){
               {" "}
               &emsp;I am 13 years old and I have been coding and working on
               these projects for around 122 days. I am passionate, and curious.
-              I love the two projects that I have worked on. My favorite part of
+              I love the three projects that I have worked on. My favorite part of
               web development is the styling.
             </div>
           </div>

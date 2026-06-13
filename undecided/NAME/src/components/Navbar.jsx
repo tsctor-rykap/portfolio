@@ -4,8 +4,8 @@ return (
   <>
     <nav className = "portfolio-nav">
       <a>Home </a>
-      <a>About Me </a>
       <a>Projects </a>
+      <a>About Me </a>
       <a>Contact </a>
     </nav>
   </>
