@@ -1,6 +1,6 @@
 import "./ProjectCard.css"
-function ProjectCard (props) {
-    props = props.props
+function ProjectCard ({props}) {
+    // props = props.props
     return (
       <>
         <div style={{position:'relative'}}>

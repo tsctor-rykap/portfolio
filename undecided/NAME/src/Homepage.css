@@ -148,6 +148,9 @@ section {
     height: 200px;
   }
 }
+.Homepage{
+  flex:1;
+}
 @media screen and (max-width: 500px) {
   #title {
     height: 300px;

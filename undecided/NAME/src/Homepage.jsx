@@ -8,7 +8,7 @@ import flappy from "./assets/Flappy Bird.png";
 import stock from "./assets/stock.png";
 function Homepage(){
     return (
-      <>
+      <div className="Homepage">
         {/* <ProjectCard
           props={{
             Title: "Project 1",
@@ -67,14 +67,14 @@ function Homepage(){
             <div>
               {" "}
               &emsp;I am 15 years old and I have been coding and working on
-              these projects for about 1 year. I am passionate, and curious and
+              these projects for about 1 year. I am passionate, curious, and
               I love the three projects that I have worked on. My favorite part
               of web development is the styling.
             </div>
           </div>
           <script src="script.js"></script>
         </section>
-      </>
+      </div>
     );
 }
 export default Homepage
