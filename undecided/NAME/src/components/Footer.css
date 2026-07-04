@@ -1,5 +1,18 @@
 footer{
-    background-color: aquamarine;
+    background-color: #d9d8d1;
     width: 100dvw;
     margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.footerlinks{
+    padding:30px;
+    display: flex;
+    gap: 3rem;
+   
+}
+.sc{
+    color: #483528;
 }
