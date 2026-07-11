@@ -106,14 +106,19 @@ section {
 }
 .AboutMe {
   margin-top: 100px;
-  background-color: #d9d8d1;
+  /* background-color: #d9d8d1; */
   font-weight: 7px;
   text-align: center;
   color: #9a7f69;
-  padding-bottom: 1%;
+  padding-bottom: 20px;
+  padding-top: 2px;
+  border: 3px solid #ceab8f;
+  border-radius: 10px;
+  
 }
 .AboutMe h2 {
   color: #483528;
+  font-size: 50px;
 }
 
 @media screen and (max-width: 900px) {

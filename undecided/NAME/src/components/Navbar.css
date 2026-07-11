@@ -1,11 +1,14 @@
 .portfolio-nav{
     display: flex;
     justify-content: flex-start;
-    width: 100%;
-    margin-top: 25px;
+     width: 100dvw;
+     margin-bottom: 50px;
+    background-color: #d9d8d1;
+    padding: 10px;
 } 
 
 .portfolio-nav a{
     margin: 0 3%;
     font-size: 15pt;
+    color: #9a7f69;
 }

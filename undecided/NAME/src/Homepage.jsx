@@ -33,7 +33,7 @@ function Homepage(){
             <div className="Project">
               <h3 id="project1"> Project 1</h3>
               <div className="grad"></div>
-              <p> &emsp;Informational page on platypuses</p>
+              <p> &emsp;Informational page on platypuses.</p>
 
               <a href="https://replit.com/@tcstorranceryka/NauticalInexperiencedInstitute">
                 <img src={platypus} alt="Trulli" />
