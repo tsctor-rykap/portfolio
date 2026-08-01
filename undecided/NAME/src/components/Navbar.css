@@ -1,10 +1,11 @@
 .portfolio-nav{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
      width: 100dvw;
      margin-bottom: 50px;
     background-color: #d9d8d1;
     padding: 10px;
+
 } 
 
 .portfolio-nav a{

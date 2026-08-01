@@ -18,11 +18,11 @@ function Homepage(){
         /> */}
         <section>
           <div id="title">
-            <div className="img-container">
+            {/* <div className="img-container">
               <img src="src/assets/ocean.jpg"></img>
-            </div>
+            </div> */}
 
-            <h1>
+            <h1 className="pagetitle">
               Ryka Pradhan's <br /> Personal Website
             </h1>
           </div>
