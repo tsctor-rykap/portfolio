@@ -28,14 +28,13 @@ function Homepage(){
           </div>
         </section>
         <section>
-          
-          <div className="Projects" id ="projects">
+          <div className="Projects" id="projects">
             <div className="Project">
               <h3 id="project1"> Project 1</h3>
               <div className="grad"></div>
               <p> &emsp;Informational page on platypuses.</p>
 
-              <a href="https://replit.com/@tcstorranceryka/NauticalInexperiencedInstitute">
+              <a href="https://github.com/tsctor-rykap/Platypus-Page">
                 <img src={platypus} alt="Trulli" />
               </a>
             </div>
@@ -44,32 +43,30 @@ function Homepage(){
               <h3 id="project2"> Project 2</h3>
 
               <p> &emsp;A pink and blue version of Flappy Bird.</p>
-              <a href="https://replit.com/@tcstorranceryka/Flappy-Bird">
+              <a href="https://github.com/tsctor-rykap/Flappy-Bird">
                 <img src={flappy} alt="Trulli" />
               </a>
             </div>
 
-          
-
             <div className="Project">
               <h3 id="project4">Project 3</h3>
               <p>Stock simulator to help you invest smartly.</p>
-              <a href="https://replit.com/@tcstorranceryka/Stock-Simulator">
-              <img src={stock} alt="Trulli" />
+              <a href="https://github.com/tsctor-rykap/Stock-Simulator">
+                <img src={stock} alt="Trulli" />
               </a>
             </div>
           </div>
         </section>
-          
+
         <section>
-          <div className="AboutMe" id ="aboutme">
+          <div className="AboutMe" id="aboutme">
             <h2 id="about me"> About Me</h2>
             <div>
               {" "}
               &emsp;I am 15 years old and I have been coding and working on
-              these projects for about 1 year. I am passionate, curious, and
-              I love the three projects that I have worked on. My favorite part
-              of web development is the styling.
+              these projects for about 1 year. I am passionate, curious, and I
+              love the three projects that I have worked on. My favorite part of
+              web development is the styling.
             </div>
           </div>
           <script src="script.js"></script>
