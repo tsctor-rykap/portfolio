@@ -29,7 +29,6 @@ a {
 
 body {
   background-color: #f3f0e3;
-  
 }
 
 h1 {
@@ -104,6 +103,12 @@ section {
   display: flex;
   flex: 1;
   justify-content: center;
+  flex-direction: column;
+}
+@media screen and (width >= 80rem) {
+  .Projects {
+    flex-direction: row;
+  }
 }
 .AboutMe {
   margin-top: 100px;
@@ -115,49 +120,37 @@ section {
   padding-top: 2px;
   border: 3px solid #ceab8f;
   border-radius: 10px;
-  
 }
 .AboutMe h2 {
   color: #483528;
   font-size: 50px;
 }
 #title {
-    height: 200px;
-    background-image: url("assets/ocean.jpg");
-    background-size: cover;
-    background-position: center;
-    border-radius: 20px;
-    padding: 30px;
-    
-  }
-
-@media screen and (max-width: 900px) {
-  .Project {
-    box-sizing: border-box;
-    width: 85vw;
-    display: inline-block;
-    border: 7px double #ffa2b6;
-    /* margin: 20px; */
-    height: 60vh;
-    /* margin-top: 0; */
-    position: relative;
-    top: 0;
-    padding: 10px;
-    vertical-align: top;
-  }
-  /* img {
-    
-  } */
-  h1 {
-    font-size: 100px;
-  }
-  
+  height: 200px;
+  background-image: url("assets/ocean.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  padding: 30px;
 }
+
+
 .Homepage {
   flex: 1;
 }
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width: 500px) {
   #title {
     height: 300px;
   }
+} */
+ .pagetitle{
+  font-size: 50px;
 }
+@media screen and (width >= 80rem) {
+  .pagetitle {
+    color: #ebe9e1;
+  font-size: 90px;
+  text-align: right;
+  }
+}
+
