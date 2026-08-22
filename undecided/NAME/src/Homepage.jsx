@@ -63,9 +63,9 @@ function Homepage(){
             <h2 id="about me"> About Me</h2>
             <div>
               {" "}
-              &emsp;I am 15 years old and I have been coding and working on
-              these projects for about 1 year. I am passionate, curious, and I
-              love the three projects that I have worked on. My favorite part of
+              &emsp;I am a high school student and I have been coding and working on
+              these projects for about a year. I am passionate, inquisitive, and I
+              love the projects that I have worked on. My favorite part of
               web development is the styling.
             </div>
           </div>
