@@ -34,7 +34,10 @@ function Homepage() {
             <div className="grad"></div>
             <p> &emsp;Informational page on platypuses.</p>
 
-            <a href="https://github.com/tsctor-rykap/Platypus-Page">
+            <a
+              className="clickable-image"
+              href="https://github.com/tsctor-rykap/Platypus-Page"
+            >
               <img src={platypus} alt="Trulli" />
             </a>
           </div>
@@ -43,7 +46,10 @@ function Homepage() {
             <h3 id="project2"> Project 2</h3>
 
             <p> &emsp;A pink and blue version of Flappy Bird.</p>
-            <a href="https://github.com/tsctor-rykap/Flappy-Bird">
+            <a
+              className="clickable-image"
+              href="https://github.com/tsctor-rykap/Flappy-Bird"
+            >
               <img src={flappy} alt="Trulli" />
             </a>
           </div>
@@ -51,7 +57,10 @@ function Homepage() {
           <div className="Project">
             <h3 id="project4">Project 3</h3>
             <p>Stock simulator to help you invest smartly.</p>
-            <a href="https://github.com/tsctor-rykap/Stock-Simulator">
+            <a
+              className="clickable-image"
+              href="https://github.com/tsctor-rykap/Stock-Simulator"
+            >
               <img src={stock} alt="Trulli" />
             </a>
           </div>

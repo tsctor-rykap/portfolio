@@ -1,14 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Capriola&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Capriola&display=swap");
 #root {
-  max-width: 1280px;
   margin: 0 auto;
-  /* padding: 2rem; */
   text-align: center;
-  font-family: Capriola
-
-  
+  font-family: Capriola;
 }
-:root {
+ :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -21,9 +17,8 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  margin:0;
-  
-}
+  margin: 0;
+} 
 
 .logo {
   height: 6em;
@@ -53,18 +48,16 @@
   }
 }
 
-
-
-.read-the-docs {
-  color: #888;
-}
 .wrapper {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-}
+  padding: 0;
+  margin: 0;
+  min-width: 100vw;
 
+}
 
 a {
   font-weight: 500;
@@ -79,14 +72,16 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
   min-height: 100vh;
+  background-color: #f3f0e3;
+  padding: 0;
 }
-
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  color: #ebe9e1;
+  text-align: right;
 }
 
 button {
@@ -120,5 +115,3 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
-
-

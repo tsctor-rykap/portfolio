@@ -4,6 +4,7 @@ import App from "./App.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
+    <title>Ryka's Portfolio</title>
     <App />
-  </StrictMode>,
+  </StrictMode>
 );
