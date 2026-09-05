@@ -1,16 +1,4 @@
-html {
-  height: 100%;
-  width: 100%;
-}
 
-/* img {
-  max-width: 80%;
-  max-height: 80%;
-  /* margin-left: 5%; */
-
-/* grad{
-background-image: linear-gradient(to right, rgb(84, 70, 70), transparent);
-} */
 li {
   display: inline-block;
   padding: 5px;
@@ -22,8 +10,6 @@ ul {
 }
 
 #title {
-  /* background: url("yellow circles.png") no-repeat center;
-  background-size: cover; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -101,6 +87,8 @@ section {
   padding-top: 2px;
   border: 3px solid #ceab8f;
   border-radius: 10px;
+  box-sizing: border-box;
+  width:100%;
 }
 .AboutMe h2 {
   color: #483528;
@@ -130,7 +118,7 @@ section {
 }
 @media screen and (width >= 80rem) {
   .Homepage {
-    max-width: 70rem;
+    /* max-width: 70rem; */
   }
 }
 
