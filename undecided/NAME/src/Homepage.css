@@ -118,7 +118,7 @@ section {
 }
 @media screen and (width >= 80rem) {
   .Homepage {
-    width: 100%;
+    width: 70%;
     margin: 0;
     padding: 0;
   }
