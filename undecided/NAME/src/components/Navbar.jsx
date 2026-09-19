@@ -3,10 +3,9 @@ function Navbar(){
 return (
   <>
     <nav className="portfolio-nav">
-      <a>Home </a>
-      <a href="#projects">Projects </a>
-      <a href="#aboutme">About Me </a>
-      <a href="#contact">Contact </a>
+      <a>Home</a>
+      <a href="#projects">Projects</a>
+      <a href="#aboutme">About Me</a>
     </nav>
   </>
 );
